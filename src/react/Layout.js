@@ -9,7 +9,7 @@ export default class Layout extends React.Component{
 	}
 
 	render(){	
-		return (
+		return {
 			<div>
               <hr/>
               <h1>React TO-DO</h1>
@@ -31,6 +31,6 @@ export default class Layout extends React.Component{
                 Click to make Angular Alert!!
               </button>
 			</div>
-		);
+        };
 	}
 }
